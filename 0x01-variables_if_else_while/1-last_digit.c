@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdlib.h>
 /**
- * main - Print a random number and check  its last digit, compares to 5
+ * main - Print a random number and check its last digit, compares to 5
  * Return: Always 0
  */
 int main(void)
