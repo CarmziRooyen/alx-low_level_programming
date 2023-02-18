@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include <studio.h>
 /**
  * main - Main block
@@ -22,3 +23,4 @@ int main(void)
 
 	putchar('\n');
 	return (0);
+}
