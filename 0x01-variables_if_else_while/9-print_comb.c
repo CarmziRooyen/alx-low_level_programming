@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
- * main - Print all combinations of single digts
+ * main - Print all possible combinations of single-digt numbers
+ * numbers must be sepreated by ,
  * Return: Always 0
  */
 int main(void)
@@ -15,6 +16,6 @@ int main(void)
 			putchar(',');
 			putchar(',');
 		}
-		putchar('\n');
-		return (0);
+	putchar('\n');
+	return (0);
 }
