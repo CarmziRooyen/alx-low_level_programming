@@ -1,20 +1,15 @@
 #include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
 /**
- * main - Main entry
- *
+ * main - Print all strings from 0-9
  * Return: Always 0
  */
 int main(void)
 {
-	char c = '0';
+	int num;
 
-	while (c <= '9')
-	{
-		putchar(c);
-		c++
-	}
-	putchar('\n');
+	for (num = 0; num < 10; num++)
+		printf("%d", num);
+
+	printf("\n");
 	return (0);
 }
