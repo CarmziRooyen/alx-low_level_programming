@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - Main block
- * Description: Get a random number, and check its
- * Return: Always 0
+ *
+ * Return: 0 (Success)
  */
 int main(void)
 {
@@ -10,12 +10,13 @@ int main(void)
 
 	while (c <= 'z')
 	{
-		if(c != 'e' && c != 'q')
+		if (c != 'e' && c != 'q')
 		{
 			putchar(c);
 		}
 		c++;
-	{
-	putchar('\n');
+	}
+	putchar ('\n');
 	return (0);
 }
+
