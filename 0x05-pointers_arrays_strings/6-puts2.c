@@ -2,7 +2,7 @@
 /**
  * puts2 - Function should only print one character out of two
  * Starting with the first one
- * @str: Input
+ * @str: input
  * Return: Print
  */
 void puts2(char *str)
@@ -18,7 +18,7 @@ void puts2(char *str)
 		longi++;
 	}
 	t = longi - 1;
-	for (o = 0 ; 0 <= t ; o++)
+	for (o = 0; 0 <= t; o++)
 	{
 		if (0 % 2 == 0)
 	{
